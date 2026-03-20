@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://38.83.138.59:25797/api/:path*"
+      "destination": "http://38.83.138.59:2037/api/:path*"
     },
     {
       "source": "/transcripts/:path*",
-      "destination": "http://38.83.138.59:25797/transcripts/:path*"
+      "destination": "http://38.83.138.59:2037/transcripts/:path*"
     },
     {
       "source": "/(.*)",
